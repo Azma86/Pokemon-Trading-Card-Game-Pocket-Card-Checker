@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Trading Card Game Pocket　カードチェッカー</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- html2canvas ライブラリの読み込み -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+	<h1>New Pokémon Trading Card Game Pocket　カードチェッカー</h1>
+    <div id="genre-buttons">
+        <button data-genres="最強の遺伝子 ミュウツー,最強の遺伝子 リザードン,最強の遺伝子 ピカチュウ,幻のいる島">拡張パック</button>
+        <button data-genres="草,炎,水,雷,超,闘,悪,鋼,ドラゴン,無色">タイプ</button>
+		<!-- <button data-genres="9月.森の「きのこ」は誰のもの?,ブーストゲット!,ごちそうゲット!,経験値ゲット!,コインゲット!,ゴールドゲット!,ジュエルゲット!">イベント</button> -->
+		<!-- <button data-genres="メインレア4コレクション(1),メインレア4コレクション(2),メインレア5コレクション">そのた</button> -->
+        <button data-genres="♦,♦♦,♦♦♦,♦♦♦♦,★,★★,★★★,♛">レアリティ</button>
+		<!-- <button data-genres="8月.避暑地の出来事,夏休みあかしコレクション">過去イベント</button> -->
+    </div>
+    <div id="item-container"></div>
+	<div id="filter-container"></div>
+    <button id="saveBtn" type="button">画像として保存</button>
+    <button id="openInNewTabBtn" type="button">新規タブで開く</button>
+
+	
+	<!-- 使い方ボタン -->
+	<button id="howToUseBtn" class="how-to-use-btn">使い方</button>
+
+	<!-- 使い方説明モーダル -->
+	<div id="howToUseModal" class="modal">
+	  <div class="modal-content">
+		<span id="closeModal" class="close">&times;</span>
+		<h2>使い方</h2>
+		<p>各カードの所持数を入力します。各カードの枚数に応じて、</p>
+		<ul>青・・・求めているカード</ul>
+		<ul>緑・・・出せるカード</ul>
+		<ul>黒・・・持っているが出せないカード</ul>
+		<p>のように変化します。</p>
+		<p>また、カードの画像をタップ (またはクリック) することで、出せないカードに変更することができます。</p>
+		<p>ページ下部の「画像として保存」ボタンで、表示中のカードの所持数一覧を表示することができます。</p>
+		<br></br>
+		<h2>このサイトについて</h2>
+		<p>「Pokémon Trading Card Game Pocket カードチェッカー」は、交換(トレード)の際に、カードの所持数を確認するために作成されました。
+		<p>株式会社ポケモン及びPokémon Trading Card Game Pocket公式とは一切関係のない<u><b>非公式のツールです</b></u>。</p>
+		<p>公式側から公開停止の依頼をされた場合、予告なしに公開を停止する可能性があることをご了承ください。</p>
+		<p>なお、作者はこのサイトを利用・閲覧することによって生じた損害に対し、一切の責任を負わないものとします。</p>
+		<p>データの修正依頼や画像提供を行っていただける場合、その他ご意見等ございましたら、下記のフォームからご連絡いだだきますようお願いいたします。</p>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLScpWwbmg-bbSAij32DxM7HGmPCdRTIZv3kGNoy5RiCxfeO0fQ/viewform?usp=sf_link" target="_blank">ご連絡フォームはこちら</a>
+	  </div>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
