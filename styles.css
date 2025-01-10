@@ -37,8 +37,8 @@ body {
 }
 
 .item img {
-    width: 100px;
-    height: 100px;
+    width: 78.75px;
+    height: 110px;
     cursor: pointer;
     position: relative;
     z-index: 2;
