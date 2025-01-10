@@ -5,15 +5,12 @@ let selectedGenres = [];
 const items = [
 { name: 'フシギダネ', image: './images/A1-001.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
 { name: 'フシギソウ', image: './images/A1-002.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
-{ name: 'あなほりホッグ', image: './images/あなほりホッグ.png', quantity: 0, genre: ['★1', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'どくマタンゴ', image: './images/どくマタンゴ.png', quantity: 0, genre: ['★1', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'ねむりマタンゴ', image: './images/ねむりマタンゴ.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'マタンゴもどき', image: './images/マタンゴもどき.png', quantity: 0, genre: ['★4', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'ブレイズウッド', image: './images/ブレイズウッド.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'エイプオラクル', image: './images/エイプオラクル.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'キングマタンゴ', image: './images/キングマタンゴ.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'フレイムボウ', image: './images/フレイムボウ.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
-{ name: 'ゾンビコンドル', image: './images/ゾンビコンドル.png', quantity: 0, genre: ['★3', '9月.森の「きのこ」は誰のもの?'], disabled: false },
+{ name: 'フシギバナ', image: './images/A1-003.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
+{ name: 'フシギバナex', image: './images/A1-004.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
+{ name: 'キャタピー', image: './images/A1-005.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
+{ name: 'トランセル', image: './images/A1-006.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
+{ name: 'バタフリー', image: './images/A1-007.png', quantity: 0, genre: ['♦', '最強の遺伝子 ミュウツー', '草'], disabled: false },
+
 	
 ];
 
